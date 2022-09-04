@@ -1,7 +1,8 @@
 .app-wrapper {
   display: flex;
   flex-wrap: wrap;
-  
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .header {
@@ -10,10 +11,10 @@
   background-color: rgb(211, 144, 144);
 }
 
-
 .nav {
   width: 20%;
   background-color: rgb(152, 191, 237);
+  color: white;
 } 
 
 .profile {
@@ -23,4 +24,5 @@
 
 .app-wrapper-content {
   background-color: rgb(134, 197, 141);
+  min-width: 80%;
 }
